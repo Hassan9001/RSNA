@@ -1,0 +1,5 @@
+# Ignore the zip file
+rsna-intracranial-aneurysm-detection.zip
+# Ignore everything inside segmentations/ and series/
+segmentations/
+series/
