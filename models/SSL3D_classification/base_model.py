@@ -5,7 +5,8 @@ import lightning as L
 import torch
 import torch.nn as nn
 import wandb
-from madgrad import MADGRAD
+# from madgrad import MADGRAD
+from torch_optimizer import MADGRAD
 from timm.optim import RMSpropTF
 from torch.optim.lr_scheduler import _LRScheduler
 import torch.nn.functional as F

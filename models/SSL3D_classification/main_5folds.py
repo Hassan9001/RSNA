@@ -7,6 +7,7 @@ from hydra.utils import instantiate
 from lightning.pytorch import seed_everything
 from omegaconf import OmegaConf
 import torch
+torch.cuda.empty_cache()
 
 from parsing_utils import make_omegaconf_resolvers
 # python main.py env=local model=primus data=smartbrain  trainer.devices=1 model.pretrained=False

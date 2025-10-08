@@ -3,3 +3,10 @@ rsna-intracranial-aneurysm-detection.zip
 # Ignore everything inside segmentations/ and series/
 segmentations/
 series/
+data/
+dicoms_split/
+nifti_out/
+tmp/
+
+
+nnssl_dataset/
